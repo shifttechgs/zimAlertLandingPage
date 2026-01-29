@@ -5,7 +5,7 @@
             <div class="container">
                 <!-- Logo Start -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    <img src="images/icons/zimlogo.png" alt="Logo" style="width: 170px">
+                    <img src="images/icons/zimLogo.png" alt="Logo" style="width: 170px">
                 </a>
                 <!-- Logo End -->
 
