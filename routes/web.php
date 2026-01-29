@@ -8,8 +8,9 @@ Route::get('/', function () {
 })->name('home');
 
 Route::post('/waitlist', [WaitlistController::class, 'submit'])
-    ->middleware(['throttle:5,60'])
+    ->middleware(['throttle:5,10'])
     ->name('waitlist.submit');
+
 
 // Placeholder routes for footer links
 Route::view('/privacy', 'privacy')->name('privacy');

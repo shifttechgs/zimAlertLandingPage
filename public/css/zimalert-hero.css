@@ -1348,7 +1348,10 @@ body {
     transform: none !important;
 }
 
-.zimalert-modal-btn.loading .btn-text,
+.zimalert-modal-btn .btn-text {
+    transition: opacity 0.2s ease;
+}
+
 .zimalert-modal-btn.loading .btn-arrow {
     opacity: 0;
     visibility: hidden;

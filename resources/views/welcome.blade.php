@@ -10,7 +10,7 @@
                 <div class="section-title">
                     <div class="zimalert-badge wow fadeInUp">
                         <span class="badge-dot"></span>
-                        <span class="badge-text">Launching Q2 2026 • Google Play Beta</span>
+                        <span class="badge-text">Launching March 2026</span>
                     </div>
 
                     <h1 class="text-anime-style-3" data-cursor="-opaque">Silence Protects Crime. Report It.</h1>
@@ -32,13 +32,6 @@
                             </svg>
                         </a>
 
-                        <a href="#beta-testing" class="zimalert-btn-secondary">
-                            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9 2L3 8L9 14M15 10L21 4L15 -2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M3 8H16C17.0609 8 18.0783 8.42143 18.8284 9.17157C19.5786 9.92172 20 10.9391 20 12V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                            <span class="btn-text">Apply for Beta Testing</span>
-                        </a>
                     </div>
 
                     <!-- Social Proof -->
@@ -144,6 +137,7 @@
             <!-- Modal Form -->
             <form id="waitlistForm" class="zimalert-modal-form">
                 @csrf
+                <x-honeypot />
                 <div class="form-group">
                     <label for="waitlist_email" class="form-label">
                         Email Address <span class="required">*</span>
@@ -201,7 +195,7 @@
             <!-- Success Message (hidden by default) -->
             <div id="successMessage" class="zimalert-success-message">
                 <div class="success-icon">
-                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="color: #FFFFFF">
                         <path d="M22 11.08V12C21.9988 14.1564 21.3005 16.2547 20.0093 17.9818C18.7182 19.7088 16.9033 20.9725 14.8354 21.5839C12.7674 22.1953 10.5573 22.1219 8.53447 21.3746C6.51168 20.6273 4.78465 19.2461 3.61096 17.4371C2.43727 15.628 1.87979 13.4881 2.02168 11.3363C2.16356 9.18455 2.99721 7.13631 4.39828 5.49706C5.79935 3.85781 7.69279 2.71537 9.79619 2.24013C11.8996 1.76489 14.1003 1.98232 16.07 2.86" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                         <path d="M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>

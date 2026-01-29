@@ -244,17 +244,15 @@
             }
 
             // Show loading state
+            const originalText = $submitBtn.find('.btn-text').text();
+            $submitBtn.find('.btn-text').text('Joining...');
             $submitBtn.addClass('loading').prop('disabled', true);
 
             // AJAX submission
             $.ajax({
                 url: '/waitlist',
                 method: 'POST',
-                data: {
-                    email: email,
-                    beta_testing: betaTesting ? 1 : 0,
-                    _token: $('input[name="_token"]').val()
-                },
+                data: $form.serialize(),
                 dataType: 'json',
                 success: function(response) {
                     if (response.success) {
@@ -289,6 +287,7 @@
                 },
                 complete: function() {
                     $submitBtn.removeClass('loading').prop('disabled', false);
+                    $submitBtn.find('.btn-text').text(originalText);
                 }
             });
         });
