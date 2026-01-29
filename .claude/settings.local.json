@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.stan.vision)",
+      "Bash(unzip:*)",
+      "Bash(fold:*)",
+      "Bash(php artisan migrate:*)",
+      "Bash(/mnt/c/wamp64_3.3.4/bin/php/php8.4.1/php artisan migrate:*)",
+      "Bash(ls:*)",
+      "Bash(/mnt/c/wamp64_3.3.4/bin/php/php8.4.1/php.exe artisan migrate)",
+      "Bash(npm run build:*)",
+      "Bash(npm install)",
+      "Bash(/mnt/c/wamp64_3.3.4/bin/php/php8.4.1/php.exe artisan view:clear)",
+      "Bash(/mnt/c/wamp64_3.3.4/bin/php/php8.4.1/php.exe:*)",
+      "Bash(/mnt/c/wamp64_3.3.4/bin/php/php8.4.1/php.exe artisan cache:clear)",
+      "Bash(grep:*)",
+      "Skill(frontend-design)",
+      "WebFetch(domain:cestio.app)",
+      "WebFetch(domain:zoyothemes.com)",
+      "Bash(tree:*)"
+    ]
+  }
+}
