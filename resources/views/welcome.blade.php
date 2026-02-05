@@ -40,10 +40,10 @@
                             <div class="avatar"></div>
                             <div class="avatar"></div>
                             <div class="avatar"></div>
-                            <div class="avatar-count">+500</div>
+                            <div class="avatar-count">+200</div>
                         </div>
                         <p class="proof-text">
-                            <strong>500+ Zimbabweans</strong> already registered for early access
+                            <strong>200+ Zimbabweans</strong> already registered for early access
                         </p>
                     </div>
                 </div>
