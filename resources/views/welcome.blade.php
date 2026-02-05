@@ -16,7 +16,8 @@
                     <h1 class="text-anime-style-3" data-cursor="-opaque">Silence Protects Crime. Report It.</h1>
 
                     <p class="wow fadeInUp" data-wow-delay="0.2s" style="font-size: 20px">
-                        Report Drug Abuse & Gender-Based Violence. Get Emergency Help and Access Rehabilitation Resources, All While Protecting Your Identity.
+                        Report Drug Abuse and Gender-Based Violence. Prevent Femicide.
+                        Get emergency help and access rehabilitation resources. All while protecting your identity.
                     </p>
 
                 </div>
