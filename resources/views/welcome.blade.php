@@ -10,7 +10,7 @@
                 <div class="section-title">
                     <div class="zimalert-badge wow fadeInUp">
                         <span class="badge-dot"></span>
-                        <span class="badge-text">Launching March 2026</span>
+                        <span class="badge-text">Launching May 2026</span>
                     </div>
 
                     <h1 class="text-anime-style-3" data-cursor="-opaque">Silence Protects Crime. Report It.</h1>
